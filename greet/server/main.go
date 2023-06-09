@@ -8,7 +8,7 @@ import (
 )
 
 type Server struct {
-	pb.GreetServiceServe
+	pb.GreetServiceServer
 }
 
 func main() {
